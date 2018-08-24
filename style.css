@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+color: white;
+}
+
+.input-group{
+	margin: 1em auto;
+	max-width: 500px;
+}
+.container{
+	text-align: center;
+}
+.temprature{
+	font-size: 2em;
+}
+.discription{
+	font-size: 2em;
+bac
+}
+.city-name{
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.weather-info{
+	display: none;
+}
