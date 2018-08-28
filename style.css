@@ -3,7 +3,7 @@ body{
 color: white;
 }
 div{
-	display:none;
+	display:none !important;
 }
 
 .input-group{
