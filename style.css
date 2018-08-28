@@ -2,10 +2,6 @@ body{
 	background-color: black;
 color: white;
 }
-.container{
-	display:block !important;
-}
-
 .input-group{
 	margin: 1em auto;
 	max-width: 500px;
