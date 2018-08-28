@@ -22,3 +22,7 @@ color: white;
 .weather-info{
 	display: none;
 }
+.btn{
+	border-color: white;
+	color: white;
+}
