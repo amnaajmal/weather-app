@@ -20,5 +20,5 @@ color: white;
 	text-transform: uppercase;
 }
 .weather-info{
-	display: none !important;
+	display: none;
 }
