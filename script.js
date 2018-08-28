@@ -3,7 +3,7 @@ function getWeather(){
 	const cityName = document.querySelector("input").value;
 
 	$.ajax({
-		url:`http://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=4b49b66c977879c9915a688302785b74&units=metric`,
+		url:`https://api.openweathermap.org/data/2.5/forecast?q=${cityName}&appid=4b49b66c977879c9915a688302785b74&units=metric`,
 
 
    success:function(data){
