@@ -17,7 +17,7 @@ document.querySelector(".discription").innerHTML=data.list[0].weather[0].main;
 document.querySelector(".min").innerHTML=data.list[0].main.temp_min;
 document.querySelector(".max").innerHTML=data.list[0].main.temp_max;
 document.querySelector(".hum >span").innerHTML=data.list[0].main.humidity;
-   },
+
 		let iconName = data.list[0].weather[0].main;
 			if (iconName === `Clouds`) {
 				document.querySelector(".icon").innerHTML = `<i class="wi wi-cloud"></i>`;
