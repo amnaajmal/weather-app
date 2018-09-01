@@ -45,7 +45,7 @@ document.querySelector(".hum >span").innerHTML=data.list[0].main.humidity;
 			else {
 				document.querySelector(".icon").innerHTML = `Loading icon.....`;
 			}
-
+   },
 	   error:function(error){
         console.log(error);
     }
